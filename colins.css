@@ -1,0 +1,152 @@
+
+.remark-slide-content {
+    font-size: 28pt;
+    padding: .25em 2em 1em 2em;
+}
+
+
+.title-slide {
+  font-size: 20pt;
+  padding: 1em 4em 1em 4em;
+  background-image: url(img/alrf_logo.png);
+  background-position: 95% 95%;
+  background-size: 350px;
+  border: 10px solid #154733;
+}
+
+.title-slide h1{
+  padding-top:150px;
+}
+
+.remark-slide-number {
+  font-size: 12pt;
+}
+
+
+img {
+max-inline-size: 85%;
+padding-top: 10pt;
+
+}
+
+/*-- Footnote --*/
+.footnote {
+  position:           absolute;
+  bottom:             2em;
+  padding-right:      4em;
+  font-size:          60%;
+  line-height:        1.2em;
+}
+
+
+.shrink{
+scale:80%;
+}
+
+.right-column{
+padding-top: 0em;
+}
+
+.fill{
+background-color: yellow;
+height: 100%;
+width: 100%
+}
+
+
+.caption{
+font-size: 18pt;
+}
+
+
+.left-column{
+width:35%;
+color: #000;
+}
+
+.inverse .left-column{
+color: #fff;
+}
+
+
+.right-column{
+width:65%;
+}
+
+.remark-code {
+font-size: 22px;
+}
+
+
+
+/* Class name via Modernizr */
+/* https://css-tricks.com/snippets/css/text-rotation/ */
+.aside {
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    margin-top: 250px;
+}
+    
+.inverse, .inverse h1, .inverse h2, .inverse a, .inverse h3, .inverse h4 {
+  color: #fff
+  
+}    
+
+<!-- .inverse { -->
+<!--   border-color: coral -->
+<!-- } -->
+
+/*--- Colin's tweaks ----*/
+
+.center {
+margin-left:auto;
+margin-right:auto;
+text-align:center
+}
+
+.middle{
+  margin-top:auto;
+  margin-bottom:auto;
+  vertical-align: middle;
+}
+
+.right {
+margin-left:auto;
+text-align:right
+
+}
+
+
+.strokeme {
+  text-shadow: 1px 3px 6px whitesmoke
+}
+
+.small {
+    font-size: 24pt;
+}
+
+
+.smaller {
+    font-size: 18pt;
+}
+
+.tiny {
+    font-size: 10pt;
+}
+
+.tinyb {
+    bottom: 2em;
+    font-size: 10pt;
+}
+
+.box1 {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 0.5em;
+    border:3px solid #000;
+    padding: 20px;
+    color:#fff;
+}
+
+
+
+

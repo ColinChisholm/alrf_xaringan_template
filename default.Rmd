@@ -1,0 +1,58 @@
+---
+title: "A RMarkdown Presentation"
+subtitle: "A little more detail"
+# subtitle: "A Professional Forester's Perspective"
+# subtitle: "<br/>with xaringan"
+author: "Colin E. Chisholm RPF, MSc"
+institute: "Aleza Lake Research Forest, UNBC"
+output:
+  # html_document
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    seal: true
+    css:
+      - default
+      - uo
+      - colins.css
+      - ./libs/animate.css
+      - "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: "%current%"
+# editor_options:
+#   chunk_output_type: console
+---
+
+class: inverse center middle animated flipInY
+
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+
+```
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=FALSE, 
+                      warning = FALSE, eval = FALSE,
+                      message = FALSE, results = 'show' )
+```
+
+
+```{r libraries ,include=FALSE}
+# library(sf)
+# library(tmap)
+library(tidyverse)
+library(icons) ## download fontawesome
+# library(vegan)
+# library(MASS)
+# library(ggord) ## devtools::install_github('fawda123/ggord')
+# library(ggpubr)
+```
+
+
+# Intro

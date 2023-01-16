@@ -37,3 +37,8 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+
+cchisholm_R_packages_v2f.Rmd
+*.html
+.Rbuildignore
